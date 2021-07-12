@@ -34,8 +34,8 @@ schedule \<N\> \<minB\> \<avgB\> \<minA\> \<avgA\> \<ALG\>
    
 # Example invocations of the program
    
-   schedule 3 100 200 1000 1500 FCFS \n
-   OR \n
+   schedule 3 100 200 1000 1500 FCFS <br>
+   OR <br>
    schedule 5 FCFS -f infile
    
    
