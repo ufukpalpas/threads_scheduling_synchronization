@@ -3,9 +3,9 @@ A simple multi-threaded scheduling simulator
 
 To run the program:
 
-schedule <N> <minB> <avgB> <minA> <avgA> <ALG>
+schedule \<N\> \<minB\> \<avgB\> \<minA\> \<avgA\> \<ALG\>
   
- <N> is the number of W threads. It can be a value between 1 and 10. 
+ \<N\> is the number of W threads. It can be a value between 1 and 10. 
  A burst time is generated as an exponentially distributed random value, with parameter <avgB>. 
  If the generated random value is less than <minB>, it has to be generated again. 
  Similarly, an interarrival time between two consecutive bursts (i.e., time to sleep between bursts in a W thread) is also to be generated as an exponentially
@@ -34,8 +34,8 @@ schedule <N> <minB> <avgB> <minA> <avgA> <ALG>
    
 # Example invocations of the program
    
-   schedule 3 100 200 1000 1500 FCFS
-   OR
+   schedule 3 100 200 1000 1500 FCFS \n
+   OR \n
    schedule 5 FCFS -f infile
    
    
